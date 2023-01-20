@@ -34,6 +34,7 @@ body{
 
 .link{
     text-decoration: none;
+    color: var(--primary-color);
 }
 
 /* ----------------COMPONENTS-------------------- */
@@ -52,6 +53,14 @@ body{
     color: #4D5AE5;
 }
 
+.secondary-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 .section-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -63,13 +72,6 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: var(--secondary-color);
-}
-
-.secondary-header {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
 }
 /* ----------------/COMPONENTS-------------------- */
 
@@ -112,7 +114,7 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* text-align: center; */
+    text-align: center;
     color: #FFFFFF;
 }
 
@@ -155,8 +157,8 @@ body{
     font-size: 16px;
     line-height: 1.5;
     /* display: flex;
-    align-items: center;
-    text-align: center; */
+    align-items: center; */
+    text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
 
