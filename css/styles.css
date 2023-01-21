@@ -4,8 +4,12 @@
     --letter-space: 0.02em;
     --primary-color: #2E2F42;
     --secondary-color: #434455;
-    --bg-color: #434455;
+    --primary-bg-color: #434455;
+    --secondary-bg-color: #F4F4FD;
     --accent-color: #404BBF;
+    --btn-bg-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --footer-text-color: #E7E9FC;
 }
 
 body{
@@ -50,11 +54,10 @@ body{
 }
 
 .icon-link-web{
-    color: #4D5AE5;
+    color: var(--btn-bg-color);
 }
 
 .secondary-header {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
@@ -68,7 +71,6 @@ body{
 }
 
 .main-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--secondary-color);
@@ -107,27 +109,27 @@ body{
 
 /* -----------------INDEX HERO SECTION-------------------- */
 .hero-section {
-    background-color: var(--bg-color);
+    background-color: var(--primary-bg-color);
 }
 
 .hero-header {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .hero-btn {
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     /* display: flex;
     align-items: center; */
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--white-color);
 
-    background: #4D5AE5;
+    background: var(--btn-bg-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -141,11 +143,11 @@ body{
 
 /* -----------------INDEX TEAM SECTION-------------------- */
 .section3 {
-    background: #F4F4FD;
+    background: var(--secondary-bg-color);
 }
 
 .section3-item {
-    background: #FFFFFF;
+    background: var(--white-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -153,23 +155,23 @@ body{
 
 /* -----------------PORTFOLIO MAIN SECTION-------------------- */
 .btn-button {
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     /* display: flex;
     align-items: center; */
-    text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--btn-bg-color);
 
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    background: var(--secondary-bg-color);
+    border: 1px solid var(--footer-text-color);
     border-radius: 4px;
 }
 
 .btn-button:hover,
 .btn-button:focus {
-    color: #FFFFFF;
+    color: var(--white-color);
     background: var(--accent-color);
     cursor: pointer;
 }
@@ -178,16 +180,16 @@ body{
 
 /* -----------------FOOTER-------------------- */
 .footer {
-    background-color: var(--bg-color);
+    background-color: var(--primary-bg-color);
 }
 
 .icon-link-footer {
-    color: #F4F4FD;
+    color: var(--secondary-bg-color);
     line-height: 1.17;
 }
 
 .footer-text {
-    color: #E7E9FC;
+    color: var(--footer-text-color);
 }
 /* -----------------/FOOTER-------------------- */
 
